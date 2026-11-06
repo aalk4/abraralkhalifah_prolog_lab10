@@ -1,0 +1,43 @@
+Task 1 - geometric calculations
+106 ?- square(2, Area, Primeter).
+Area = 4,
+Primeter = 8.
+
+107 ?- rectangle(5, 11, Area, Primeter).
+Area = 55,
+Primeter = 32.
+
+108 ?- triangle(6, 7, 5, 8, Area, Primeter).
+Area = 21,
+Primeter = 19.
+
+
+Task 2 - Login:
+
+101 ?- consult(['/Users/abraralkhalifa/Prolog/login.pl']).
+true.
+
+102 ?- login.
+Enter username: reem.
+Enter password: |: helloworld03.
+Login Successful
+true.
+
+103 ?- login.
+Enter username: pharah.
+Enter password: |: 77889.
+Login Unsuccessful
+Enter username: |: lora.
+Enter password: |: g4rden.
+Login Unsuccessful
+Enter username: |: samah.
+Enter password: |: cloudy1.
+Login Unsuccessful
+Sorry, you have exceeded the maximum number of attempts. Please try again later.
+true 
+
+103 ?- login.
+Enter username: layla.
+Enter password: |: pass678.
+Login Successful
+true.
